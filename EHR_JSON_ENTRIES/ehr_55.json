@@ -1,0 +1,26 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Visible deep carious lesion on the mandibular right first molar, percussion tenderness."
+        },
+        "assessment": {
+            "diagnosis": "Dental Caries with Pulpitis",
+            "icd_10": {
+                "code": "K04.0",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Amoxicillin for cellulitis prophylaxis",
+            "referral to Endodontist for root canal evaluation."
+        ],
+        "chief_complaint": "Dental Pain",
+        "history_of_present_illness": "Severe pain in the lower right molar that is constant and throbbing, radiating to the jaw."
+    },
+    "patient": {
+        "dob": "2003-09-06",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_55"
+}

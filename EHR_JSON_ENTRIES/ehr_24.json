@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "BP 135/85mmHg, vitals stable."
+        },
+        "assessment": {
+            "diagnosis": "Essential Primary Hypertension, well controlled",
+            "icd_10": {
+                "code": "I10",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Continue current medication dosage",
+            "lifestyle maintenance",
+            "recheck BP in 6 months."
+        ],
+        "chief_complaint": "Hypertension Follow-up",
+        "history_of_present_illness": "Has been taking Amlodipine for 3 months, reports excellent compliance."
+    },
+    "patient": {
+        "dob": "1970-07-06",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_24"
+}

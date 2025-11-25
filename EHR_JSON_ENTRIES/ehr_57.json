@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Lichenification and patchy erythema in flexural creases, chronic appearance."
+        },
+        "assessment": {
+            "diagnosis": "Atopic Dermatitis, chronic",
+            "icd_10": {
+                "code": "L20.9",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Emollients daily",
+            "medium-potency topical steroid cream for flares",
+            "avoidance of long hot showers."
+        ],
+        "chief_complaint": "Eczema Flare",
+        "history_of_present_illness": "Areas of scaly, dry, intensely itchy skin on the inner elbows and behind the knees, ongoing."
+    },
+    "patient": {
+        "dob": "1966-11-15",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_57"
+}

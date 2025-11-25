@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Positive Dix-Hallpike maneuver (nystagmus noted)."
+        },
+        "assessment": {
+            "diagnosis": "Benign Paroxysmal Positional Vertigo (BPPV)",
+            "icd_10": {
+                "code": "H81.10",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Perform Epley maneuver in office",
+            "provide home instructions for Epley",
+            "return if symptoms persist."
+        ],
+        "chief_complaint": "Vertigo",
+        "history_of_present_illness": "Sudden onset of spinning dizziness when turning head quickly, lasts about 30 seconds."
+    },
+    "patient": {
+        "dob": "1968-05-15",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_19"
+}

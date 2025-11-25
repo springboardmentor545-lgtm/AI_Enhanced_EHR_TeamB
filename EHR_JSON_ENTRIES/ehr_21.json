@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "EKG normal, vitals stable, pulmonary exam clear."
+        },
+        "assessment": {
+            "diagnosis": "Non-cardiac Chest Pain (Rule out Musculoskeletal)",
+            "icd_10": {
+                "code": "R07.89",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Order Chest X-ray",
+            "consider trial of anti-inflammatory medication",
+            "return immediately if pain changes or worsens."
+        ],
+        "chief_complaint": "Chest Pain",
+        "history_of_present_illness": "Intermittent, dull ache in the chest, non-exertional, denies diaphoresis or shortness of breath."
+    },
+    "patient": {
+        "dob": "1950-09-19",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_21"
+}

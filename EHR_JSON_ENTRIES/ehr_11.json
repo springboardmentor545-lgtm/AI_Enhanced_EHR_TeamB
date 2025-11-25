@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Mild pharyngeal erythema, negative rapid Strep test."
+        },
+        "assessment": {
+            "diagnosis": "Acute Pharyngitis (viral)",
+            "icd_10": {
+                "code": "J02.9",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Symptomatic treatment: lozenges",
+            "fluids",
+            "warm salt water gargles."
+        ],
+        "chief_complaint": "Sore Throat",
+        "history_of_present_illness": "Gradual onset of throat discomfort, mild cough, no fever."
+    },
+    "patient": {
+        "dob": "1999-12-05",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_11"
+}

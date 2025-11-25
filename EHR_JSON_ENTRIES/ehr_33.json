@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Pelvic exam deferred, breast exam negative for masses."
+        },
+        "assessment": {
+            "diagnosis": "Premenstrual Tension Syndrome",
+            "icd_10": {
+                "code": "N94.3",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Recommend regular aerobic exercise",
+            "dietary changes (less salt/caffeine)",
+            "consider oral contraceptives for symptom management."
+        ],
+        "chief_complaint": "Premenstrual Syndrome (PMS)",
+        "history_of_present_illness": "Monthly cycles of irritability, bloating, and breast tenderness starting 7-10 days before menses."
+    },
+    "patient": {
+        "dob": "1985-07-26",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_33"
+}

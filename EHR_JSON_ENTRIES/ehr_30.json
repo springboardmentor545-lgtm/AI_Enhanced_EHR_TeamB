@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Nasal turbinates are pale and boggy, clear rhinorrhea present."
+        },
+        "assessment": {
+            "diagnosis": "Allergic Rhinitis due to pollen",
+            "icd_10": {
+                "code": "J30.1",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Start non-sedating antihistamine (Cetirizine) daily",
+            "use Fluticasone nasal spray",
+            "avoid outdoor exposure on high pollen days."
+        ],
+        "chief_complaint": "Allergic Rhinitis",
+        "history_of_present_illness": "Persistent nasal congestion, sneezing, and watery eyes, worse during spring season."
+    },
+    "patient": {
+        "dob": "1997-04-16",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_30"
+}

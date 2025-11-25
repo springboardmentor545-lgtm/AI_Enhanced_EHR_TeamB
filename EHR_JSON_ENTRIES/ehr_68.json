@@ -1,0 +1,28 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "External thrombosed hemorrhoid noted at the 7 o'clock position."
+        },
+        "assessment": {
+            "diagnosis": "Thrombosed external hemorrhoids",
+            "icd_10": {
+                "code": "I84.3",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Topical hydrocortisone cream",
+            "sitz baths 3 times daily",
+            "stool softeners",
+            "high-fiber diet."
+        ],
+        "chief_complaint": "Hemorrhoids",
+        "history_of_present_illness": "Painful external hemorrhoid, mild bleeding with bowel movements for 1 week."
+    },
+    "patient": {
+        "dob": "1969-02-28",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_68"
+}

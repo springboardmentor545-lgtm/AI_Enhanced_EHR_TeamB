@@ -1,0 +1,28 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "No motor deficits, positive straight leg raise, tenderness in lumbar paraspinal muscles."
+        },
+        "assessment": {
+            "diagnosis": "Acute Lumbar Strain",
+            "icd_10": {
+                "code": "S39.012A",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Rest",
+            "heat/ice application",
+            "muscle relaxants for 5 days",
+            "return to work restrictions."
+        ],
+        "chief_complaint": "Back Pain",
+        "history_of_present_illness": "Lifted a heavy box yesterday, sudden sharp pain in lower back, radiates slightly into buttocks."
+    },
+    "patient": {
+        "dob": "1980-04-25",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_05"
+}

@@ -1,0 +1,26 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Thick, curdy white discharge, vulvar erythema, pH normal."
+        },
+        "assessment": {
+            "diagnosis": "Recurrent Vulvovaginal Candidiasis",
+            "icd_10": {
+                "code": "B37.3",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Prescribe Fluconazole 150mg STAT and repeat in 3 days",
+            "counsel on underlying risk factors (diabetes screening ordered)."
+        ],
+        "chief_complaint": "Recurrent Yeast Infection",
+        "history_of_present_illness": "Three episodes of vaginal itching and thick discharge in the past year, resistant to OTC treatments."
+    },
+    "patient": {
+        "dob": "1984-01-13",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_52"
+}

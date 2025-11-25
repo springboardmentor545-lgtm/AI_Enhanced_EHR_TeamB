@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Abdominal exam benign, no epigastric tenderness."
+        },
+        "assessment": {
+            "diagnosis": "Gastroesophageal Reflux Disease (GERD)",
+            "icd_10": {
+                "code": "K21.9",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Lifestyle modification (elevate head of bed",
+            "dietary changes)",
+            "prescribe PPI (Omeprazole)."
+        ],
+        "chief_complaint": "Heartburn",
+        "history_of_present_illness": "Burning sensation in chest, worse after eating and when lying down, nocturnal symptoms present."
+    },
+    "patient": {
+        "dob": "1973-01-01",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_13"
+}

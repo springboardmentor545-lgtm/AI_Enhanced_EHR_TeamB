@@ -1,0 +1,26 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Vitals stable, pallor noted, otherwise unremarkable physical exam."
+        },
+        "assessment": {
+            "diagnosis": "Iron Deficiency Anemia",
+            "icd_10": {
+                "code": "D50.9",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Order CBC and Ferritin levels",
+            "begin oral Iron supplementation (Ferrous Sulfate)."
+        ],
+        "chief_complaint": "Chronic Fatigue",
+        "history_of_present_illness": "Persistent tiredness for the last 6 months, difficulty concentrating, feeling cold often."
+    },
+    "patient": {
+        "dob": "1978-06-18",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_08"
+}

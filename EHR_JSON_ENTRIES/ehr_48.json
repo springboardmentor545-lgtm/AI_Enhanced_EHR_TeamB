@@ -1,0 +1,26 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Palpable firm, non-tender nodule in the right lobe of the thyroid."
+        },
+        "assessment": {
+            "diagnosis": "Thyroid Nodule, size 1cm",
+            "icd_10": {
+                "code": "E07.9",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Order thyroid function tests (TSH) and ultrasound of the thyroid",
+            "referral to Endocrinology for Fine-Needle Aspiration (FNA)."
+        ],
+        "chief_complaint": "Thyroid Nodule",
+        "history_of_present_illness": "Found a small lump in the neck during self-exam. Asymptomatic."
+    },
+    "patient": {
+        "dob": "1971-05-05",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_48"
+}

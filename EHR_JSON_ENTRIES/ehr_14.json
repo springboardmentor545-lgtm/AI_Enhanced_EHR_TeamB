@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Appearance appropriate, affect constricted, oriented x3."
+        },
+        "assessment": {
+            "diagnosis": "Major Depressive Disorder, single episode, unspecified",
+            "icd_10": {
+                "code": "F32.9",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Start SSRI (Sertraline)",
+            "referral to talk therapy",
+            "follow up in 2 weeks for medication check."
+        ],
+        "chief_complaint": "Depression",
+        "history_of_present_illness": "Low mood, anhedonia, difficulty sleeping and concentrating for 4 months. Denies suicidal ideation."
+    },
+    "patient": {
+        "dob": "1988-03-17",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_14"
+}

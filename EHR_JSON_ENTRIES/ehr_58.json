@@ -1,0 +1,29 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Swelling and tenderness over the PIP joint of the left middle finger, good distal neurovascular function."
+        },
+        "assessment": {
+            "diagnosis": "Sprain of the PIP joint, middle finger",
+            "icd_10": {
+                "code": "S63.609A",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Buddy taping to adjacent finger",
+            "ice",
+            "elevation",
+            "NSAIDs for pain",
+            "follow up if swelling does not resolve in 7 days."
+        ],
+        "chief_complaint": "Sprained Finger",
+        "history_of_present_illness": "Jammed finger catching a ball at recess, pain and swelling in the middle finger."
+    },
+    "patient": {
+        "dob": "2010-06-04",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_58"
+}
