@@ -1,0 +1,28 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Incision site clean, dry, and intact (CDI), mild tenderness to palpation adjacent to incision."
+        },
+        "assessment": {
+            "diagnosis": "Post-procedural pain",
+            "icd_10": {
+                "code": "Z09",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Continue pain medication PRN (Ibuprofen)",
+            "monitor for signs of infection (fever",
+            "discharge)",
+            "follow up in 2 weeks."
+        ],
+        "chief_complaint": "Post-Surgical Follow-up",
+        "history_of_present_illness": "Status post appendectomy 1 week ago, reports mild incisional pain."
+    },
+    "patient": {
+        "dob": "1989-12-19",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_38"
+}

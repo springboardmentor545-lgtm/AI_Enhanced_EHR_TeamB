@@ -1,0 +1,28 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Vitals stable, no lymphadenopathy, abdomen soft, no masses."
+        },
+        "assessment": {
+            "diagnosis": "Personal history of malignant neoplasm of colon",
+            "icd_10": {
+                "code": "Z85.038",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Order comprehensive blood work (CBC",
+            "metabolic panel)",
+            "continue surveillance schedule",
+            "advise light exercise."
+        ],
+        "chief_complaint": "Fatigue (Cancer Follow-up)",
+        "history_of_present_illness": "Status post chemotherapy for colon cancer 6 months ago, reports mild lingering fatigue."
+    },
+    "patient": {
+        "dob": "1954-04-03",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_65"
+}

@@ -1,0 +1,28 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Right MTP joint is hot, red, and exquisitely tender, unable to bear weight."
+        },
+        "assessment": {
+            "diagnosis": "Acute Gouty Arthritis",
+            "icd_10": {
+                "code": "M10.071",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Colchicine for acute attack",
+            "NSAIDs",
+            "start Allopurinol after flare resolves",
+            "strict diet modification (avoid purines)."
+        ],
+        "chief_complaint": "Gout Flare",
+        "history_of_present_illness": "Sudden, excruciating pain and swelling in the right great toe overnight. Denies trauma."
+    },
+    "patient": {
+        "dob": "1977-10-02",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_53"
+}

@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Mild tachycardia, dry mucous membranes, irritable, mild abdominal distension."
+        },
+        "assessment": {
+            "diagnosis": "Dehydration due to Acute Vomiting",
+            "icd_10": {
+                "code": "E86.0",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Oral rehydration solution (ORS) every 5 minutes",
+            "monitor urine output",
+            "anti-emetic medication (Ondansetron) if needed."
+        ],
+        "chief_complaint": "Vomiting",
+        "history_of_present_illness": "Several episodes of non-bloody, non-bilious vomiting over the last 6 hours, denies diarrhea."
+    },
+    "patient": {
+        "dob": "2019-07-30",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_47"
+}

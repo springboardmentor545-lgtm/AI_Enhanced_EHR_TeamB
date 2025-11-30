@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Erythematous, vesicular rash consistent with external irritant exposure."
+        },
+        "assessment": {
+            "diagnosis": "Contact Dermatitis, generalized",
+            "icd_10": {
+                "code": "L25.9",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Avoid irritant",
+            "prescribe topical corticosteroid",
+            "hydroxyzine for itching."
+        ],
+        "chief_complaint": "Rash",
+        "history_of_present_illness": "New, intensely itchy rash appeared on forearms and neck after using a new laundry detergent."
+    },
+    "patient": {
+        "dob": "2005-02-14",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_06"
+}

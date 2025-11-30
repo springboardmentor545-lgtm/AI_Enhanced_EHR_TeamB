@@ -1,0 +1,26 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Full exam normal, BP 120/78mmHg, BMI 24.5."
+        },
+        "assessment": {
+            "diagnosis": "Encounter for routine examination",
+            "icd_10": {
+                "code": "Z00.00",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Continue current healthy habits",
+            "schedule mammogram and colonoscopy screening per guidelines."
+        ],
+        "chief_complaint": "Annual Physical",
+        "history_of_present_illness": "Screening lab work completed, reports no new complaints, compliant with medications."
+    },
+    "patient": {
+        "dob": "1958-03-05",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_29"
+}

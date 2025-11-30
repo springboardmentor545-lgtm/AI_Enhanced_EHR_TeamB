@@ -1,0 +1,26 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Vitals stable, no acute findings."
+        },
+        "assessment": {
+            "diagnosis": "Encounter for routine influenza vaccination",
+            "icd_10": {
+                "code": "Z23",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Administer quadrivalent inactivated influenza vaccine (IIV4)",
+            "observe for 15 minutes post-injection."
+        ],
+        "chief_complaint": "Annual Flu Vaccine",
+        "history_of_present_illness": "Seeking routine seasonal influenza vaccination, no contraindications."
+    },
+    "patient": {
+        "dob": "1982-08-21",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_59"
+}

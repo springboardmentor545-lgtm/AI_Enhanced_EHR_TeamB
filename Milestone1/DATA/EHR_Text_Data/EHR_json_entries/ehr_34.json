@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Audiometry pending, Otoscopy normal."
+        },
+        "assessment": {
+            "diagnosis": "Tinnitus, unilateral, left ear",
+            "icd_10": {
+                "code": "H93.12",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Avoid loud noises",
+            "reduce caffeine intake",
+            "ENT referral for specialized evaluation."
+        ],
+        "chief_complaint": "Tinnitus",
+        "history_of_present_illness": "Persistent ringing sound in the ears, worse in quiet environments, denies hearing loss."
+    },
+    "patient": {
+        "dob": "1963-01-08",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_34"
+}

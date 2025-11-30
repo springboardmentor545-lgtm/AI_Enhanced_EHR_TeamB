@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Symmetrical swelling and tenderness of MCP and PIP joints, rheumatoid factor ordered."
+        },
+        "assessment": {
+            "diagnosis": "Rheumatoid Arthritis, suspected",
+            "icd_10": {
+                "code": "M06.9",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Start Methotrexate pending lab results",
+            "rheumatology referral",
+            "anti-inflammatory medication (Celecoxib)."
+        ],
+        "chief_complaint": "Chronic Joint Pain",
+        "history_of_present_illness": "Generalized achiness in multiple large joints (shoulders, hands), morning stiffness lasting over an hour."
+    },
+    "patient": {
+        "dob": "1976-12-25",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_43"
+}

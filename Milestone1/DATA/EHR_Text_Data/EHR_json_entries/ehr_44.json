@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Asymptomatic today, skin clear."
+        },
+        "assessment": {
+            "diagnosis": "Exposure to Varicella",
+            "icd_10": {
+                "code": "Z20.82",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Isolate patient from school/daycare for 21 days",
+            "monitor for rash/fever",
+            "counsel parents on signs and symptoms."
+        ],
+        "chief_complaint": "Varicella Exposure",
+        "history_of_present_illness": "Exposed to a sibling with chickenpox 3 days ago, patient is unvaccinated."
+    },
+    "patient": {
+        "dob": "2011-02-09",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_44"
+}

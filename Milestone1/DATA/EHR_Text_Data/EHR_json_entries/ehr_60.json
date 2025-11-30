@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Orthostatic blood pressure check shows a 25mmHg drop in systolic pressure."
+        },
+        "assessment": {
+            "diagnosis": "Orthostatic Hypotension",
+            "icd_10": {
+                "code": "I95.1",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Increase fluid and salt intake (if not hypertensive)",
+            "counsel on slow positional changes",
+            "review medication list for offending agents."
+        ],
+        "chief_complaint": "Dizziness",
+        "history_of_present_illness": "Feeling lightheaded upon standing quickly from sitting, especially in the mornings."
+    },
+    "patient": {
+        "dob": "1947-07-28",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_60"
+}

@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Tremulous, tearful during interview, heart rate elevated, otherwise normal exam."
+        },
+        "assessment": {
+            "diagnosis": "Generalized Anxiety Disorder (GAD)",
+            "icd_10": {
+                "code": "F41.1",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Cognitive Behavioral Therapy (CBT) referral",
+            "start Sertraline low dose",
+            "schedule weekly check-ins."
+        ],
+        "chief_complaint": "Anxiety",
+        "history_of_present_illness": "Frequent panic attacks, excessive worry, avoidance of social situations for 8 months."
+    },
+    "patient": {
+        "dob": "1994-03-08",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_46"
+}

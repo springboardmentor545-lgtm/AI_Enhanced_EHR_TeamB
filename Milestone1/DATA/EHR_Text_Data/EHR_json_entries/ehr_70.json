@@ -1,0 +1,28 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "BP 130/80mmHg, no peripheral edema."
+        },
+        "assessment": {
+            "diagnosis": "Chronic Kidney Disease, Stage 3",
+            "icd_10": {
+                "code": "N18.3",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Continue low-salt",
+            "low-protein diet",
+            "review blood pressure targets",
+            "recheck kidney function labs in 3 months."
+        ],
+        "chief_complaint": "Chronic Kidney Disease Follow-up",
+        "history_of_present_illness": "Stage 3 CKD, compliant with diet and medications, reports no new symptoms."
+    },
+    "patient": {
+        "dob": "1986-09-29",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_70"
+}

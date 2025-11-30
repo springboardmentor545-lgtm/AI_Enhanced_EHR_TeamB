@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Maxillary and frontal sinus tenderness, mucopurulent discharge present."
+        },
+        "assessment": {
+            "diagnosis": "Acute Bacterial Sinusitis",
+            "icd_10": {
+                "code": "J01.90",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Prescribe Amoxicillin/Clavulanate for 7 days",
+            "nasal saline rinse",
+            "decongestant PRN."
+        ],
+        "chief_complaint": "Sinusitis",
+        "history_of_present_illness": "10 days of nasal congestion, facial pain, post-nasal drip, and mild fever."
+    },
+    "patient": {
+        "dob": "1981-08-06",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_42"
+}

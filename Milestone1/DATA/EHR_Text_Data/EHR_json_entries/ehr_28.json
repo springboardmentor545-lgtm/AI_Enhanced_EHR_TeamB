@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Open and closed comedones noted on the forehead and bridge of the nose."
+        },
+        "assessment": {
+            "diagnosis": "Acne Vulgaris, comedonal",
+            "icd_10": {
+                "code": "L70.0",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Begin topical Salicylic Acid wash",
+            "start Tretinoin nightly",
+            "emphasize not picking lesions."
+        ],
+        "chief_complaint": "Acne",
+        "history_of_present_illness": "Persistent blackheads and whiteheads on the forehead and nose, not responding to drugstore washes."
+    },
+    "patient": {
+        "dob": "2004-11-09",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_28"
+}

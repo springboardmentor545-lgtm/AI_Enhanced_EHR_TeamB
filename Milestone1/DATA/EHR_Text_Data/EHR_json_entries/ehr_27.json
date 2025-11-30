@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Vitals stable, neck exam negative for masses, TSH ordered."
+        },
+        "assessment": {
+            "diagnosis": "Acquired Hypothyroidism, suboptimally controlled",
+            "icd_10": {
+                "code": "E03.9",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Adjust Levothyroxine dosage to 75ug daily",
+            "recheck TSH in 6 weeks",
+            "counsel on adherence."
+        ],
+        "chief_complaint": "Hypothyroidism Follow-up",
+        "history_of_present_illness": "Taking Levothyroxine 50ug, reports fatigue is improved but still present."
+    },
+    "patient": {
+        "dob": "1960-08-27",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_27"
+}

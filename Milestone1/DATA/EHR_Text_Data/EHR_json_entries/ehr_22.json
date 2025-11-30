@@ -1,0 +1,26 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Normal neurological exam, vitals stable."
+        },
+        "assessment": {
+            "diagnosis": "Migraine with aura, intractable",
+            "icd_10": {
+                "code": "G43.109",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Prescribe sumatriptan for abortive therapy",
+            "discuss prophylactic medication options (Beta Blocker)."
+        ],
+        "chief_complaint": "Migraine",
+        "history_of_present_illness": "Severe, pulsating headache with aura (flashing lights), nausea, sensitive to light and sound."
+    },
+    "patient": {
+        "dob": "1983-04-10",
+        "gender": "Female",
+        "gender_code": "F"
+    },
+    "record_id": "EHR_22"
+}

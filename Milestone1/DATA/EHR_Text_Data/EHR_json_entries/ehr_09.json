@@ -1,0 +1,27 @@
+{
+    "encounter": {
+        "examination": {
+            "findings_summary": "Bilateral conjunctival injection, purulent discharge, preauricular lymphadenopathy."
+        },
+        "assessment": {
+            "diagnosis": "Bacterial Conjunctivitis",
+            "icd_10": {
+                "code": "H10.33",
+                "system": "ICD-10"
+            }
+        },
+        "plan": [
+            "Antibiotic eye drops (Tobramycin) for 7 days",
+            "strict hygiene",
+            "avoid school/daycare until discharge resolves."
+        ],
+        "chief_complaint": "Eye Redness",
+        "history_of_present_illness": "Redness, discharge, and feeling of grit in both eyes started 3 days ago. Highly contagious."
+    },
+    "patient": {
+        "dob": "2012-03-29",
+        "gender": "Male",
+        "gender_code": "M"
+    },
+    "record_id": "EHR_09"
+}
