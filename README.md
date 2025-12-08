@@ -7,6 +7,14 @@ This project enhances traditional Electronic Health Records (EHR) by integrating
 
 The objective is to streamline hospital workflows, reduce documentation burden, and support faster clinical decision-making by integrating imaging data, patient demographics, lab reports, and AI-driven insights into one unified platform.
 
+| Milestone | Deliverable                                     |
+| --------- | ----------------------------------------------- |
+| **M1**    | Clean, labeled datasets for imaging + EHR notes |
+| **M2**    | Working GenAI imaging enhancement pipeline      |
+| **M3**    | Automated documentation + coding workflow       |
+| **M4**    | Full deployment into EHR systems                |
+|           |                                                 |
+
 Contributors
 ------------
 - Manasvi Bhaskar  
