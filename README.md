@@ -1,4 +1,4 @@
-AI-Powered Enhanced EHR Imaging & Documentation System
+AI-Enhanced EHR Imaging & Documentation System
 ===========================================================
 
 Project Overview
