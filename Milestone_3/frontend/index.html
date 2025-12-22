@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI EHR – Clinical Note Demo</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f6f8;
+        color: #333;
+        padding: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        color: #1f4e79;
+    }
+
+    form {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 500px;
+        margin: 20px auto;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    button {
+        background-color: #1f4e79;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        margin-top: 15px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #16395a;
+    }
+
+    pre {
+        background-color: #e8eef3;
+        padding: 15px;
+        border-radius: 10px;
+        max-width: 500px;
+        margin: 20px auto;
+        overflow-x: auto;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+</style>
+
+</head>
+<body>
+    <h2>Clinical Note Generator (Demo)</h2>
+
+    <form id="ehrForm">
+        Patient ID: <input type="text" id="pid"><br><br>
+        Age: <input type="number" id="age"><br><br>
+        Gender: <input type="text" id="gender"><br><br>
+        Symptoms (comma separated): <input type="text" id="symptoms"><br><br>
+        Diagnosis: <input type="text" id="diagnosis"><br><br>
+        Observations: <input type="text" id="obs"><br><br>
+        <button type="button" onclick="generateNote()">Generate</button>
+    </form>
+
+    <h3>Output</h3>
+    <pre id="output"></pre>
+
+    <script>
+       function generateNote() {
+    const patientData = {
+        patient_id: document.getElementById("pid").value.trim(),
+        age: document.getElementById("age").value.trim(),
+        gender: document.getElementById("gender").value.trim(),
+        symptoms: document.getElementById("symptoms").value.split(",").map(s => s.trim()),
+        diagnosis: document.getElementById("diagnosis").value.trim(),
+        doctor_observations: document.getElementById("obs").value.trim()
+    };
+
+    const icdMap = {
+        "Pneumonia": "J18.9",
+        "Diabetes": "E11.9",
+        "Hypertension": "I10",
+        "Asthma": "J45.909",
+        "COVID-19": "U07.1"
+    };
+
+    const note = `
+Patient ID: ${patientData.patient_id}
+Age/Gender: ${patientData.age} / ${patientData.gender}
+Symptoms: ${patientData.symptoms.join(", ")}
+Observations: ${patientData.doctor_observations}
+Diagnosis: ${patientData.diagnosis}
+ICD-10 Code: ${icdMap[patientData.diagnosis] || "Not Available"}
+`;
+
+    document.getElementById("output").textContent = note;
+}
+
+    </script>
+</body>
+</html>
