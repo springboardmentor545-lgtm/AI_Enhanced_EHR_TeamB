@@ -689,7 +689,10 @@ def dashboard_page():
     # Load Data
     @st.cache_data
     def load_ehr():
-        with open("Data/ehr_processed.json", "r", encoding="utf-8") as f:
+        import os
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        data_path = os.path.join(current_dir, "Data", "ehr_processed.json")
+        with open(data_path, "r", encoding="utf-8") as f:
             return json.load(f)
     
     ehr_data = load_ehr()
@@ -818,9 +821,13 @@ def dashboard_page():
     """, unsafe_allow_html=True)
     
     with col4:
-        image_dir = "Images/ehr_processedimages"
-        image_files = [f for f in os.listdir(image_dir) if f.startswith(f"{patient_id}.")]
-        has_image = len(image_files) > 0
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        image_dir = os.path.join(current_dir, "Images", "ehr_processedimages")
+        if os.path.exists(image_dir):
+            image_files = [f for f in os.listdir(image_dir) if f.startswith(f"{patient_id}.")]
+            has_image = len(image_files) > 0
+        else:
+            has_image = False
         img_status = "Available" if has_image else "Pending"
         st.markdown(f"""
     <div class="metric-card {'info' if has_image else 'danger'}">
@@ -913,9 +920,13 @@ def dashboard_page():
     
     # Tab 2: Medical Imaging
     with tab2:
-        image_dir = "Images/ehr_processedimages"
-        image_files = [f for f in os.listdir(image_dir) if f.startswith(f"{patient_id}.")]
-        image_path = os.path.join(image_dir, image_files[0]) if image_files else None
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        image_dir = os.path.join(current_dir, "Images", "ehr_processedimages")
+        if os.path.exists(image_dir):
+            image_files = [f for f in os.listdir(image_dir) if f.startswith(f"{patient_id}.")]
+            image_path = os.path.join(image_dir, image_files[0]) if image_files else None
+        else:
+            image_path = None
         
         st.markdown("""
     <div class="image-container">
