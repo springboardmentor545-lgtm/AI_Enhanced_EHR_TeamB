@@ -692,6 +692,9 @@ def dashboard_page():
         import os
         current_dir = os.path.dirname(os.path.abspath(__file__))
         data_path = os.path.join(current_dir, "Data", "ehr_processed.json")
+        if not os.path.exists(data_path):
+            st.error(f"Data file not found at: {data_path}")
+            return {}
         with open(data_path, "r", encoding="utf-8") as f:
             return json.load(f)
     
